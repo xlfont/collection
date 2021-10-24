@@ -1,0 +1,41 @@
+{
+  "name": "default",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "start": "npx server -r web -o true"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "@loadingio/bootstrap.ext": "0.0.1",
+    "@loadingio/ldquery": "^2.2.0",
+    "@plotdb/opentype.js": "^1.3.4",
+    "@xlfont/choose": "^0.0.2",
+    "@xlfont/load": "^1.0.11",
+    "@zbryikt/template": "^2.3.22",
+    "bootstrap": "^5.1.3",
+    "fedep": "0.0.17",
+    "ldcover": "^2.0.0",
+    "ldloader": "^2.0.1",
+    "ldview": "^0.2.5",
+    "proxise": "^0.1.3"
+  },
+  "frontendDependencies": {
+    "root": "web/static/assets/lib",
+    "modules": [
+      "@xlfont/choose",
+      "@plotdb/opentype.js",
+      "@xlfont/load",
+      "bootstrap",
+      "@loadingio/bootstrap.ext",
+      "ldcover",
+      "proxise",
+      "ldloader",
+      "@loadingio/ldquery",
+      "ldview"
+    ]
+  }
+}

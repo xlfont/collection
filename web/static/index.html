@@ -1,0 +1,21 @@
+<!DOCTYPE html><html><head><link rel="stylesheet" type="text/css" href="assets/lib/bootstrap/main/css/bootstrap.min.css"><link rel="stylesheet" type="text/css" href="assets/lib/@loadingio/bootstrap.ext/main/index.min.css"><link rel="stylesheet" type="text/css" href="assets/lib/@xlfont/choose/main/index.min.css"><link rel="stylesheet" type="text/css" href="assets/lib/ldcover/main/index.min.css"></head><body><h1>hello</h1><div class="btn btn-primary" ld="show">show</div><div class="ldcv default-size"><div class="base"><div class="inner"><div class="xfc toolbar d-flex flex-column h-100"><div class="xfc-head d-flex px-3 py-2 border-bottom"><div class="mr-2 text-left"><div class="text-muted" style="font-size:12px" t>Category</div><div class="dropdown"><div class="btn btn-sm btn-outline-secondary dropdown-toggle text-capitalize" ld="cur-cat" style="min-width:5em" data-toggle="dropdown"></div><div class="dropdown-menu shadow-sm" style="max-height:50vh;overscroll-behavior:contain;overflow-y:scroll"><div class="dropdown-item text-capitalize" ld-each="category"></div></div></div></div><div class="mr-2 text-left"><div class="text-muted" style="font-size:12px" t>Subset</div><div class="dropdown mr-2"><div class="btn btn-sm btn-outline-secondary dropdown-toggle text-capitalize" ld="cur-subset" style="min-width:5em" data-toggle="dropdown"></div><div class="dropdown-menu shadow-sm" style="max-height:50vh;overscroll-behavior:contain;overflow-y:scroll"><div class="dropdown-item text-capitalize" ld-each="subset"></div></div></div></div><div class="flex-grow-1 text-left"><div class="text-muted" style="font-size:12px" t>Name</div><input class="form-control form-control-sm" ld="search" placeholder="Search..."></div><div><div class="text-muted" style="font-size:12px">&nbsp;</div><div class="btn btn-sm btn-text mx-2" t>or</div><div class="btn btn-sm btn-outline-secondary btn-upload" ld="upload"><span t>Upload</span> <input type="file"></div></div><div class="ml-2"><div class="text-muted" style="font-size:12px">&nbsp;</div><div class="btn btn-sm btn-outline-secondary" t ld="cancel">Cancel</div></div></div><div class="xfc-content" style="overflow-y:scroll;overscroll-behavior:contain;"><div class="my-4" ld="font-list" style="display:grid;grid-template-columns:repeat(auto-fill,250px);grid-gap:1em;justify-content:space-around"><div class="xfc-font" ld-each="font"><div class="inner" ld="name"></div></div></div></div></div></div></div></div><script type="text/javascript" src="assets/lib/@loadingio/ldquery/main/ldq.min.js"></script><script type="text/javascript" src="assets/lib/ldview/main/index.min.js"></script><script type="text/javascript" src="assets/lib/@xlfont/load/main/xfl.min.js"></script><script type="text/javascript" src="assets/lib/@xlfont/choose/main/index.min.js"></script><script type="text/javascript" src="assets/lib/ldcover/main/index.min.js"></script><script type="text/javascript" src="assets/lib/proxise/main/proxise.min.js"></script><script>var chooser, ldcv, view;
+console.log(1);
+chooser = new xfc({
+  root: '.ldcv',
+  "metaRoot": 'assets/font/meta',
+  "fontRoot": 'assets/font/links'
+});
+chooser.init();
+ldcv = new ldcover({
+  root: '.ldcv'
+});
+view = new ldview({
+  root: document.body,
+  action: {
+    click: {
+      show: function(){
+        return ldcv.get();
+      }
+    }
+  }
+});</script></body></html>

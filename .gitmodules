@@ -1,51 +1,51 @@
 [submodule "files/google"]
-	path = dist/files/google
+	path = files/google
 	url = https://github.com/google/fonts
 [submodule "files/xlfonts/fontworks"]
-	path = dist/files/xlfonts/fontworks
+	path = files/xlfonts/fontworks
 	url = git@github.com:xlfont/fontworks
 [submodule "files/xlfonts/hanamin"]
-	path = dist/files/xlfonts/hanamin
+	path = files/xlfonts/hanamin
 	url = git@github.com:xlfont/hanamin
 [submodule "files/xlfonts/jason-handwriting"]
-	path = dist/files/xlfonts/jason-handwriting
+	path = files/xlfonts/jason-handwriting
 	url = git@github.com:xlfont/jason-handwriting
 [submodule "files/xlfonts/jf-open-huninn"]
-	path = dist/files/xlfonts/jf-open-huninn
+	path = files/xlfonts/jf-open-huninn
 	url = git@github.com:xlfont/jf-open-huninn
 [submodule "files/xlfonts/kiwimaru"]
-	path = dist/files/xlfonts/kiwimaru
+	path = files/xlfonts/kiwimaru
 	url = git@github.com:xlfont/kiwimaru
 [submodule "files/xlfonts/naikai"]
-	path = dist/files/xlfonts/naikai
+	path = files/xlfonts/naikai
 	url = git@github.com:xlfont/naikai
 [submodule "files/xlfonts/new-tegomin"]
-	path = dist/files/xlfonts/new-tegomin
+	path = files/xlfonts/new-tegomin
 	url = git@github.com:xlfont/new-tegomin
 [submodule "files/xlfonts/notosans-cjk-tc"]
-	path = dist/files/xlfonts/notosans-cjk-tc
+	path = files/xlfonts/notosans-cjk-tc
 	url = git@github.com:xlfont/notosans-cjk-tc
 [submodule "files/xlfonts/notoserif-cjk-tc"]
-	path = dist/files/xlfonts/notoserif-cjk-tc
+	path = files/xlfonts/notoserif-cjk-tc
 	url = git@github.com:xlfont/notoserif-cjk-tc
 [submodule "files/xlfonts/potta"]
-	path = dist/files/xlfonts/potta
+	path = files/xlfonts/potta
 	url = git@github.com:xlfont/potta
 [submodule "files/xlfonts/qiji"]
-	path = dist/files/xlfonts/qiji
+	path = files/xlfonts/qiji
 	url = git@github.com:xlfont/qiji
 [submodule "files/xlfonts/soukoumincho"]
-	path = dist/files/xlfonts/soukoumincho
+	path = files/xlfonts/soukoumincho
 	url = git@github.com:xlfont/soukoumincho
 [submodule "files/xlfonts/taipei-sans-tc"]
-	path = dist/files/xlfonts/taipei-sans-tc
+	path = files/xlfonts/taipei-sans-tc
 	url = git@github.com:xlfont/taipei-sans-tc
 [submodule "files/xlfonts/tanugo"]
-	path = dist/files/xlfonts/tanugo
+	path = files/xlfonts/tanugo
 	url = git@github.com:xlfont/tanugo
 [submodule "files/xlfonts/yomogi"]
-	path = dist/files/xlfonts/yomogi
+	path = files/xlfonts/yomogi
 	url = git@github.com:xlfont/yomogi
 [submodule "files/xlfonts/yusei-magic"]
-	path = dist/files/xlfonts/yusei-magic
+	path = files/xlfonts/yusei-magic
 	url = git@github.com:xlfont/yusei-magic

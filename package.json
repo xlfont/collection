@@ -4,7 +4,8 @@
   "description": "",
   "main": "index.js",
   "scripts": {
-    "start": "npx server -r web -o true"
+    "start": "npx server -r web -o true",
+    "build": "npx xfc -c xlfont.json"
   },
   "keywords": [],
   "author": "",
@@ -13,8 +14,8 @@
     "@loadingio/bootstrap.ext": "0.0.1",
     "@loadingio/ldquery": "^2.2.0",
     "@plotdb/opentype.js": "^1.3.4",
-    "@xlfont/choose": "^0.0.7",
-    "@xlfont/load": "^1.0.11",
+    "@xlfont/choose": "^0.0.9",
+    "@xlfont/load": "^1.0.13",
     "@zbryikt/template": "^2.3.22",
     "bootstrap": "^5.1.3",
     "fedep": "0.0.17",

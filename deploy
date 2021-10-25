@@ -14,7 +14,7 @@ if [[ -d "$1" ]]; then
     git push
     cd ..
     rm -rf _public
-    ln -s files dist/files
+    ln -s ../files dist/files
   else
     echo "please use deploy under a git repo."
   fi

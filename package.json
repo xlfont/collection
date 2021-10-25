@@ -5,8 +5,7 @@
   "main": "index.js",
   "scripts": {
     "start": "npx server -r web -o true",
-    "build": "npx xfc -c xlfont.json",
-    "deploy": "./deploy dist"
+    "build": "npx xfc -c xlfont.json"
   },
   "keywords": [],
   "author": "",

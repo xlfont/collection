@@ -7,5 +7,5 @@
   "links": "dist/links",
   "meta": "dist/meta",
   "src": "dist/files",
-  "ignores": ["^noto sans (?!tc)"]
+  "ignores": ["^noto sans (?!cjk|mono)", "^noto serif (?!cjk)"]
 }
